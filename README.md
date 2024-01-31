@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# D3 Force-Directed Graph Project
 
-## Getting Started
+This project implements a force-directed graph using D3.js, allowing for an interactive visualization of hierarchical data.
 
-First, run the development server:
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How to Run](#how-to-run)
+- [Collapsible Functionality](#collapsible-functionality)
+- [Demo Video](#demo-video)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This project uses D3.js to create an interactive force-directed graph visualization. The graph represents a hierarchical structure with main nodes and their respective child nodes.
+
+## Features
+
+- **Force-Directed Layout:** Utilizes the force-directed layout algorithm for an aesthetically pleasing and dynamic graph representation.
+- **Interactive Nodes:** Nodes can be clicked to reveal or hide their child nodes, providing a collapsible functionality.
+- **Zoom In/Out:** Use the scroll wheel to zoom in and out of the graph for a closer or broader view.
+- **Drag Functionality:** Click and drag on the graph to reposition and explore different parts of the visualization.
+- **Tooltips:** Hover over nodes to display tooltips with additional information.
+
+## Dependencies
+
+This project relies on the following dependencies:
+
+- [D3.js](https://d3js.org/): A JavaScript library for creating interactive data visualizations in the browser.
+
+## Installation
+
+No explicit installation is required. Simply clone the repository to your local machine.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/your-username/d3-force-graph-project.git
