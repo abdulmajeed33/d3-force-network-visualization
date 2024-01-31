@@ -37,6 +37,6 @@ No explicit installation is required. Simply clone the repository to your local 
 git clone https://github.com/your-username/d3-force-graph-project.git
 
 ## Screenshots
-![image](https://github.com/abdulmajeed33/d3-force-network-visualization/assets/99089185/88c7d68a-48a6-4605-9e87-731866b11300)
+![image](https://github.com/abdulmajeed33/d3-force-network-visualization/assets/99089185/ecf356dc-2b54-40cd-bf91-6eade7e80731)
 
 
