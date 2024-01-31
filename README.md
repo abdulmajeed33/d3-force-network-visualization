@@ -8,13 +8,8 @@ This project implements a force-directed graph using D3.js, allowing for an inte
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [How to Run](#how-to-run)
-- [Collapsible Functionality](#collapsible-functionality)
-- [Demo Video](#demo-video)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo Video](#demo-video)
 
 ## Overview
 
@@ -40,3 +35,8 @@ No explicit installation is required. Simply clone the repository to your local 
 
 ```bash
 git clone https://github.com/your-username/d3-force-graph-project.git
+
+## Screenshots
+![image](https://github.com/abdulmajeed33/d3-force-network-visualization/assets/99089185/88c7d68a-48a6-4605-9e87-731866b11300)
+
+
