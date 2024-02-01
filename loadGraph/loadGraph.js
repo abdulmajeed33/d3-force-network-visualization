@@ -17,10 +17,8 @@ const colors = [
 
 const MAIN_NODE_SIZE = 40;
 const CHILD_NODE_SIZE = 15;
-const LEAF_NODE_SIZE = 5;
 const DEFAULT_DISTANCE = 90;
 const MAIN_NODE_DISTANCE = 90;
-const LEAF_NODE_DISTANCE = 5;
 const MANY_BODY_STRENGTH = -180;
 
 let i = 0;
@@ -646,7 +644,7 @@ export const loadGraph = () => {
     });
 
   circles.on("click", (event, node) => {
-    showChildren(node);
+    showHideChildren(node);
     console.log("node", node);
   });
 
@@ -674,7 +672,7 @@ export const loadGraph = () => {
   });
 
   // Helper function to show/hide children
-  function showChildren(node) {
+  function showHideChildren(node) {
     const childNodes = childeNodesHashMap.get(node.id);
     const childLinks = childLinksHashMap.get(node.id);
 
@@ -759,7 +757,7 @@ export const loadGraph = () => {
       .attr("r", (d) => d.size)
       .call(dragInteraction)
       .on("click", (event, clickedNode) => {
-        showChildren(clickedNode);
+        showHideChildren(clickedNode);
       })
       .on("mouseover", (event, node) => {
         // Add tooltip on mouseover
